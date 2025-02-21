@@ -1,0 +1,34 @@
+Name,Ring,Quadrant,isNew,Description
+Angular,hold,languages & frameworks,FALSE,"Several of our teams have Angular applications in production and reportedly, they like what they see. For this reason, we're moving Angular into the Trial ring in this Radar, to signify that some of our teams now consider it a solid choice. Most of our teams, however, still preferÿReact,ÿVueÿorÿEmberÿover Angular."
+React,adopt,languages & frameworks,FALSE,"In the avalanche of front-end JavaScript frameworks,ÿReact.jsÿstands out due to its design around a reactive data flow. Allowing only one-way data binding greatly simplifies the rendering logic and avoids many of the issues that commonly plague applications written with other frameworks. We're seeing the benefits of React.js on a growing number of projects, large and small, while at the same time we continue to be concerned about the state and the future of other popular frameworks likeÿAngularJS. This has led to React.js becoming our default choice for JavaScript frameworks."
+Micro Frontend Anarchy,hold,techniques,TRUE,"Since we originally introduced the term in 2016,ÿmicro frontendsÿhave grown in popularity and achieved mainstream acceptance. But like any new technique with an easy-to-remember name, it has occasionally been misused and abused. Particularly concerning is the tendency to use this architecture as an excuse to mix a range of competing technologies, tools or frameworks in a single page, leading toÿmicro frontend anarchy. A particularly egregious form of this syndrome is using multiple frontend frameworks ? for example,ÿReact.jsÿandÿAngularÿ? in the same ""single-page"" application. Although this might be technically possible, it is far from advisable when not part of a deliberate transition strategy. Other properties that should be consistent from team to team include the styling technique (e.g.,ÿCSS-in-JSÿorÿCSS modules) and the means by which the individual components are integrated (e.g., iFrames orÿweb components). Furthermore, organizations should decide whether to standardize on consistent approaches or to leave it up to their teams to decide on state management, data fetching, build tooling, analytics and a host of other choices in a micro frontend application."
+Spring Boot,adopt,languages & frameworks,FALSE,"A lot of work has gone intoÿSpring Bootÿto reduce complexity and dependencies, which largely alleviates our previous reservations. If you live in a Spring ecosystem and are moving to microservices, Spring Boot is now the obvious choice. For those not in Springland,ÿDropwizardÿis also worthy of serious consideration."
+Axios,assess,languages & frameworks,FALSE,"Our teams have had success withÿaxios, a promises-based HTTP client in JavaScript that they describe as ""better thanÿFetch."" The project has lots of endorsements and activity on GitHub, and it gets a thumbs-up from us."
+React Query,adopt,languages & frameworks,TRUE,"React Queryÿis often described as the missing data-fetching library forÿReact. Fetching, caching, synchronizing and updating server state is a common requirement in many React applications, and although the requirements are well understood, getting the implementation right is notoriously difficult. React Query provides a straightforward solution using hooks. It works hand-in-hand with existing async data-fetching libraries likeÿaxios,ÿFetchÿandÿGraphQLÿsince they are built on promises. As an application developer, you simply pass a function that resolves your data and leave everything else to the framework. We like that it works out of the box but still offers a lot of configuration when needed. The developer tools, unfortunately not yet available forÿReact Native, also help developers new to the framework understand how it works. For React Native, you can use aÿthird-party developer tools pluginÿutilizingÿFlipper. In our experience, version 3 of React Query brought the stability needed to be used in production with our clients."
+Redux,trial,languages & frameworks,FALSE,"We've decided to moveÿReduxÿback into the Trial ring to show that we no longer consider it the default approach for state management inÿReactÿapplications. Our experience shows that Redux is still a valuable framework in many cases but compared to other approaches, it also leads to more verbose and harder-to-follow code. ThrowingÿRedux Sagasÿinto the mix usually compounds this issue. As an alternative, you can often use the features in recent versions of React to manage state effectively without an additional framework. However, we want to highlight that when you reach the point at which your simple state management solution starts to become complex, it might be worth reaching for Redux after all or perhaps even Facebook?s recently publishedÿRecoil."
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
